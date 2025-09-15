@@ -1,0 +1,1 @@
+EVALUATE\nvar percentMask = \"00%\"\nvar numberMask = \"###,##0\"\nvar data =UTCNOW() - TIME(3,0,0) //Ajuste da data devido a diferença de fuso\nVAR hoje = DATE(YEAR(data),MONTH(data),DAY(data))\n
